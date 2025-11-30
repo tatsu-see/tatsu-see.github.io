@@ -4,7 +4,10 @@ body{
 
   min-height:100vh;
   margin:0;
-  background:linear-gradient(to top,#4879d3 0%,#a7dce9 30%,#f0f0f0 100%);
+  background:linear-gradient(to top,#4879d3 0%,#a7dce9 20%,#f0f0f0 100%);
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
 }
 
 h1 {
@@ -17,4 +20,17 @@ h2 {
 
 h3,h4,h5,h6{
 
+}
+
+#leftBody,#CenterBody,#rightBody{
+  min-height:100vh;
+}
+
+#leftBody,#rightBody{
+  flex:0 0 20%;
+}
+
+#CenterBody{
+  flex:0 0 60%;
+  max-width:60%;
 }
