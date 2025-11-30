@@ -1,6 +1,10 @@
 body{
   font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   font-size:9pt;
+
+  min-height:100vh;
+  margin:0;
+  background:linear-gradient(to top,#4879d3 0%,#a7dce9 30%,#f0f0f0 100%);
 }
 
 h1 {
