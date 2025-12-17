@@ -10,8 +10,16 @@ body{
   justify-content:space-between;
 }
 
-h1 {
-  font-size:12pt;
+#logo {
+  position:fixed;
+  top:20px;
+  margin-left:40px;
+}
+
+#title {
+  font-size:11pt;
+  font-weight:400;
+  margin-top:0px;
 }
 
 h2 {
@@ -28,9 +36,12 @@ h3,h4,h5,h6{
 
 #leftBody,#rightBody{
   flex:0 0 20%;
+  background-color: #fafafa44;
 }
 
 #CenterBody{
   flex:0 0 60%;
   max-width:60%;
+
+  padding:30px;
 }
