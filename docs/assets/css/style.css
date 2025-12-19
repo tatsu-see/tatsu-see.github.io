@@ -12,14 +12,26 @@ body{
 
 #logo {
   position:fixed;
-  top:20px;
-  margin-left:40px;
+  top:10px;
+  right:calc(20%);
+  margin:0 0 0px 0;
+  border:solid 0px #000000;
 }
 
 #title {
-  font-size:11pt;
+  font-size:9pt;
   font-weight:400;
+
   margin-top:0px;
+  margin-right:100px;
+  padding:3px;
+  padding-right:30px;
+  padding-left :30px;
+
+  display:block;
+  width:fit-content;
+  margin-left:auto;
+  border:solid 1px #88888888;
 }
 
 h2 {
@@ -43,5 +55,7 @@ h3,h4,h5,h6{
   flex:0 0 60%;
   max-width:60%;
 
-  padding:30px;
+/*  padding:30px; */
+  padding-left:30px;
+  padding-right:30px;
 }
