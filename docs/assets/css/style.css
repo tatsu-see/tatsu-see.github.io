@@ -10,6 +10,10 @@ body{
   justify-content:space-between;
 }
 
+img{
+  padding:7px;
+}
+
 #logo {
   position:fixed;
   top:10px;
